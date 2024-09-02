@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    margin: 0px;
+    background: rgb(52, 41, 41);
+    color: whitesmoke;
+}
+#header{
+    display: flex;
+    background: rgb(201, 62, 62);
+    align-items: center;
+
+}
+#logo{
+    width: 100px;
+    margin: 20px 50px;
+}
+.headings{
+    display: flex;
+    align-items: center;
+}
+.heads{
+    margin: 40px;
+    transition: color 0.3 ease;
+    white-space: nowrap;
+}
+.heads:hover{
+    color: peru;
+}
+#pfp{ 
+    width: 50px; 
+}
+#pfp-set{
+    margin-left: auto;
+    margin-right: 50px;
+}
+#searching-section{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#search-bar{
+   width: 500px;
+   height: 30px;
+   padding: 15px 25px;
+   margin-right: 20px;
+   font-size: 20px;
+   border-radius: 25px;
+   border: none;
+}
+#search-button{
+    background: greenyellow;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+#magnifier{
+    width: 16px;
+}
+.shelf{
+    margin-top: 100px;
+}
+.manga-display{
+    display: flex;
+    justify-content: stretch;
+    margin: 20px;
+    gap: 40px;
+}
+.manga-covers{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.intro{
+    font-size: 30px;
+}
+.manga-box{
+    transition: transform 0.3 ease;
+    cursor: pointer;
+}
+.manga-box:hover{
+    transform: scale(1.1);
+}
